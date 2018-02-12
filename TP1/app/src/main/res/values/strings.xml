@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Age</string>
+    <string name="action_settings">Settings</string>
+    <string name="nom">Nom</string>
+    <string name="sexe">Sexe</string>
+    <string name="datenaiss">Date de naissance</string>
+    <string name="calculage">CALCUL D\'ÂGE</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="entrernom">Entrez votre nom</string>
+</resources>
