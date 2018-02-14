@@ -4,12 +4,21 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
 
 /**
  * Created by David on 14/02/2018.
  */
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.TodoItemHolder> {
+
+    private ArrayList<TodoItem> liste;
+
+    public RecyclerAdapter(ArrayList<TodoItem> liste) {
+        this.liste = liste;
+    }
+
     @Override
     public TodoItemHolder onCreateViewHolder (ViewGroup parent , int viewType ) {
         return null ;
@@ -25,7 +34,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.TodoIt
         return 0;
         }
 
-    public class TodoItemHolder extends RecyclerView.ViewHolder {
+    public static class TodoItemHolder extends RecyclerView.ViewHolder {
         public TodoItemHolder ( View itemView ) {
             super (itemView) ;
 
