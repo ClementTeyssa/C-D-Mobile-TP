@@ -7,12 +7,12 @@ package ct_dh.myapplication;
 public class TodoItem {
 
     private String label;
-    private int tag;
+    private int Tags; // 0 faible  1 normal  2 imoprtant
     private boolean realisee;
 
-    public TodoItem(String label, int tag) {
+    public TodoItem(int tag, String label) {
         this.label = label;
-        this.tag = tag;
+        this.Tags = tag;
         this.realisee = false;
     }
 
@@ -21,7 +21,7 @@ public class TodoItem {
     }
 
     public int getTag() {
-        return tag;
+        return Tags;
     }
 
     public boolean isRealisee() {
@@ -33,7 +33,7 @@ public class TodoItem {
     }
 
     public void setTag(int tag) {
-        this.tag = tag;
+        this.Tags = tag;
     }
 
     public void setRealisee(boolean realisee) {

@@ -56,18 +56,18 @@ public class MainActivity extends AppCompatActivity {
 
     public ArrayList<TodoItem> getItems() {
         ArrayList<TodoItem> items = new ArrayList<TodoItem>();
-        items.add(new TodoItem(TodoItem.Tags.Important, "Réviser ses cours"));
-        items.add(new TodoItem(TodoItem.Tags.Normal, "Acheter du pain"));
-        items.add(new TodoItem(TodoItem.Tags.Normal, "Marcher 30 mn par jour"));
-        items.add(new TodoItem(TodoItem.Tags.Faible, "Manger 5 fruits et légumes"));
-        items.add(new TodoItem(TodoItem.Tags.Normal, "Prendre des nouvelles des parents"));
-        items.add(new TodoItem(TodoItem.Tags.Faible, "Préparer la prochaine soirée poker"));
-        items.add(new TodoItem(TodoItem.Tags.Normal, "Révoir les premières saisons de Game of thrones"));
-        items.add(new TodoItem(TodoItem.Tags.Faible, "Finir la vaisselle"));
-        items.add(new TodoItem(TodoItem.Tags.Important, "Acheter un nouveau disque dur"));
-        items.add(new TodoItem(TodoItem.Tags.Important, "Revoir les raccourcis clavier"));
-        items.add(new TodoItem(TodoItem.Tags.Normal, "Tester une nouvelle techno"));
-        items.add(new TodoItem(TodoItem.Tags.Faible, "Tester l'application en cours"));
+        items.add(new TodoItem(2, "Réviser ses cours"));
+        items.add(new TodoItem(1, "Acheter du pain"));
+        items.add(new TodoItem(1, "Marcher 30 mn par jour"));
+        items.add(new TodoItem(0, "Manger 5 fruits et légumes"));
+        items.add(new TodoItem(1, "Prendre des nouvelles des parents"));
+        items.add(new TodoItem(0, "Préparer la prochaine soirée poker"));
+        items.add(new TodoItem(1, "Révoir les premières saisons de Game of thrones"));
+        items.add(new TodoItem(0, "Finir la vaisselle"));
+        items.add(new TodoItem(2, "Acheter un nouveau disque dur"));
+        items.add(new TodoItem(2, "Revoir les raccourcis clavier"));
+        items.add(new TodoItem(1, "Tester une nouvelle techno"));
+        items.add(new TodoItem(0, "Tester l'application en cours"));
 
         return items;
     }
