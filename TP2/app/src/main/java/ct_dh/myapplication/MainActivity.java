@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         recycler = (RecyclerView) findViewById(R.id.recycler);
         manager = new LinearLayoutManager(this);
         recycler.setLayoutManager(manager);
+
+        adapter = new RecyclerAdapter(liste);
+        recycler.setAdapter(adapter);
+
     }
 
     @Override

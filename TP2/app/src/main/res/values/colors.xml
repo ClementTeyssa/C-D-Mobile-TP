@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="faible">@android:color/holo_green_dark</color>
+    <color name="moyen">@android:color/holo_green_dark</color>
+    <color name="fort">@android:color/holo_green_dark</color>
 </resources>
